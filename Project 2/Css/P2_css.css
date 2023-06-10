@@ -1,0 +1,155 @@
+#logo {
+    display: flex;
+    /* border: 2px solid green; */
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    margin: 20px auto;
+}
+
+#reg {
+    position: absolute;
+    right: 30px;
+    top: 45px;
+}
+
+button {
+    font-size: 1rem;
+    height: 5vh;
+    width: 6vw;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(252, 251, 251);
+}
+
+button:hover {
+    background-color: rgb(90, 90, 197);
+    color: aliceblue;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#navbar {
+    display: flex;
+    margin: 20px 20vw;
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
+    background-color: rgba(0, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.nav_item {
+    color: rgb(242, 242, 242);
+    font-size: 1.5rem;
+    border: 2px solid rgb(83, 178, 228);
+    border-radius: 7px;
+    padding: 0.5vh 1vw;
+}
+
+.nav_item:hover {
+    background-color: aqua;
+    color: rgb(30, 18, 18);
+    cursor: pointer;
+}
+
+img {
+    height: 100px;
+    width: 150px;
+}
+
+body {
+    margin: 0px;
+    background: url("../Img/wallpaperflare.com_wallpaper.jpg");
+    height: 3000px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+.type {
+    display: flex;
+    border: 4px solid rgba(4, 4, 4, 0.5);
+    padding: 10px;
+    margin: 3vh;
+    justify-content: space-evenly;
+}
+
+.type img {
+    display: block;
+    height: 300px;
+    width: 250px;
+    margin: 2px auto;
+    ;
+
+}
+
+.type img:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    height: 302px;
+    width: 252px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border: 2px solid red;
+    font-size: 1.2rem;
+    margin: 0px;
+    margin-top: 8px;
+}
+.info > a{
+    display: flex;
+    justify-content: center;
+    color: beige;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: black;
+    border: 2px solid black;
+    width: 12vh;
+    height: 4.5vh;
+    font-size: 1.4rem;
+    margin: 14px;
+}
+
+.info > a:hover{
+    background-color: rgb(134, 134, 239);
+    font-size: 1.5rem;
+    color: black;
+}
+.Game {
+    height: 370px;
+    width: 280px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    box-shadow: 4px 6px 10px rgba(8, 4, 23, 0.7);
+    margin: 10px 0px;
+
+}
+
+.rat{
+font-size: 1rem;
+color: rgb(76, 70, 70);
+display: flex;
+margin-top: 0.7vh;
+}
+.star{
+    display: block;
+    mask-repeat: repeat-x;
+    border: 2px solid;
+    width: 20vh;
+}
+.rat img{
+    height: 3vh;
+    width: 3vh;
+}
+.info img :hover{
+    height: 3vh;
+    width: 3vh;
+}
